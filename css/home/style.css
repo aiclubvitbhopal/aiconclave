@@ -1,17 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-main{
+body{
     background: url(../../img/components.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+main{
     height: 100vh;
     width:100vw;
     display: flex;
     flex-direction: column;
     gap:50px;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.26);
+}
+
+.hero{
+    height: 100vw;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading{
+    position: absolute;
+    width: 843px;
+    height: 176.62px;
+    left: calc(50% - 843px/2 - 0.5px);
+    top: calc(50% - 176.62px/2 + 0.31px);
+
+    /* font-family: 'Devant';
+    font-style: normal; */
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115.7%;
+
+    /* or 231px */
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
 }
