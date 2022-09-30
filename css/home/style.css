@@ -45,17 +45,17 @@ body {
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    top: calc(51vh);
-    right:calc(30vw);
+    top: calc(49vh);
+    right:calc(28vw);
 }
 
 .heading {
     position: relative;
     bottom: 50px;
-    width: 550px;
+    width: 900px;
     font-family: 'Fjalla One', sans-serif;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 130px;
     line-height: 115.7%;
     text-align: center;
     letter-spacing: 0.05em;
@@ -67,10 +67,10 @@ body {
 .sub-head {
     position: relative;
     bottom: 30px;
-    width: 477.11px;
+    /* width: 477.11px; */
     font-family: 'Alef', sans-serif;
     font-weight: 400;
-    font-size: 34px;
+    font-size: 44px;
     line-height: 28%;
     text-align: center;
     color: #312A51;
@@ -83,7 +83,7 @@ body {
     font-family: 'Alef';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 180%;
     color: rgba(55, 47, 90, 0.48);
 }
