@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
 
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-body{    
+body {
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
     overflow-y: scroll;
 }
 
-.back{
+.back {
     background: url(../../img/components.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -22,12 +22,12 @@ body{
     height: 100vh;
     width: 100vw;
     position: fixed;
-    top:0px;
-    left:0px;
+    top: 0px;
+    left: 0px;
     z-index: -1;
 }
 
-.hero{
+.hero {
     height: 100vh;
     width: 100vw;
     position: relative;
@@ -39,17 +39,17 @@ body{
     background: rgba(0, 0, 0, 0.26);
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    top:calc(51vh);
+    top: calc(51vh);
 }
 
-.heading{
-    position:relative;
+.heading {
+    position: relative;
     bottom: 50px;
     width: 550px;
     font-family: 'Fjalla One', sans-serif;
@@ -59,11 +59,12 @@ body{
     text-align: center;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(36, 31, 60, 0.26);
+    backdrop-filter: blur(2.5px);
 }
 
-.sub-head{
-    position:relative;
+.sub-head {
+    position: relative;
     bottom: 30px;
     width: 477.11px;
     font-family: 'Alef', sans-serif;
@@ -74,8 +75,8 @@ body{
     color: #312A51;
 }
 
-.tags{
-    position:relative;
+.tags {
+    position: relative;
     bottom: 12px;
     height: 38.57px;
     font-family: 'Alef';
@@ -86,21 +87,54 @@ body{
     color: rgba(55, 47, 90, 0.48);
 }
 
-main{
-    height: 300vh;
-    width:100vw;
+.main-bottom {
+    position: absolute;
+    bottom: 20px;
+    right:0px;
+    height: 100px;
+    width: 90vw;
+    background: rgba(36, 31, 60, 0.8);
+    backdrop-filter: blur(2.5px);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-bottom img{
+    height: 70px;
+}
+
+main {
+
+    /* Increase the height according to no of sections */
+    height: 200vh;
+
+
+    width: 100vw;
+    /* display: flex;
     flex-direction: column;
     gap:50px;
     justify-content: space-between;
-    align-items: center;
+    gap:100px;
+    align-items: center; */
     background: rgba(0, 0, 0, 0.26);
     z-index: 1;
+    margin-top: 0px;
+    padding: 50px;
 }
 
-.container{
+.container {
+
+    /* Did not Increase the width too much that is starts covering nav */
     height: 80vh;
+
     width: 70vw;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background: rgba(36, 31, 60, 0.8);
+    backdrop-filter: blur(2.5px);
+    margin: 100px auto;
 }
