@@ -78,14 +78,14 @@ body {
 
 .tags {
     position: relative;
-    bottom: 12px;
+    bottom: 0px;
     height: 38.57px;
     font-family: 'Alef';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 180%;
-    color: rgba(55, 47, 90, 0.48);
+    color: rgba(55, 47, 90, 0.55);
 }
 
 .main-bottom {
