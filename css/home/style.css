@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
 
 *{
     padding: 0px;
@@ -43,21 +44,42 @@ main{
 
 .heading{
     position: absolute;
-    width: 843px;
-    height: 176.62px;
-    left: calc(50% - 843px/2 - 0.5px);
-    top: calc(50% - 176.62px/2 + 0.31px);
-
-    /* font-family: 'Devant';
-    font-style: normal; */
+    width: 550px;
+    left: calc(50% - 550px/2 - 0.5px);
+    top: calc(50% - 80px/2 + 0.31px);
     font-family: 'Fjalla One', sans-serif;
     font-weight: 400;
-    font-size: 100px;
+    font-size: 80px;
     line-height: 115.7%;
-
-    /* or 231px */
     text-align: center;
     letter-spacing: 0.05em;
-
     color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.sub-head{
+    position: absolute;
+    width: 477.11px;
+    left: calc(50% - 477.11px/2 - 11.44px);
+    top: calc(50% - 32.39px/2 + 90.2px);
+    font-family: 'Alef', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 28%;
+    text-align: center;
+    color: #312A51;
+}
+
+.tags{
+    position: absolute;
+    width: 570.29px;
+    height: 38.57px;
+    left: calc(50% - 570.29px/2 + 32px);
+    top: calc(50% - 38.57px/2 + 120.29px);
+    font-family: 'Alef';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 180%;
+    color: rgba(55, 47, 90, 0.48);
 }
