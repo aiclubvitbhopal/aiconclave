@@ -1,5 +1,4 @@
 gsap.registerPlugin(ScrollTrigger);
-gsap.registerPlugin(MotionPathPlugin);
 console.log("running");
 
 const header = document.querySelector('.hero-main-heading');
@@ -95,111 +94,7 @@ function show_hide_nav(){
             else show_hide_nav.reverse();
         }
     })
-};
-
-gsap.from("#container-event", {
-    duration: 1, 
-    y: 300,
-    opacity: 0,
-    ease: "power4.inOut",
-    pin: true,
-    scrollTrigger:{
-        trigger: "#container-event",
-        markers: true,
-        start: "top bottom",
-        toggleActions: "play none none reverse",
-        // scrub: true,
-        // toggleClass: {targets: ".l1", className: "active"}
-        // onToggle: self => {
-        //     $(".l1").css("background-color", "red");
-        // }
-    }
-});
-
-gsap.from([".event-left .timeline",".event-left .event-head",".event-left .event-text"], {
-    duration: 1, 
-    stagger: 0.2,
-    // delay: 0.3,
-    y: 300,
-    opacity: 0,
-    ease: "power4.out",
-    pin: true,
-    scrollTrigger:{
-        trigger: "#container-event",
-        markers: true,
-        start: "top 85%",
-        toggleActions: "play none none reset",
-
-        // scrub: true, 
-        // toggleClass: {targets: ".l1", className: "active"}
-        // onToggle: self => {
-        //     $(".l1").css("background-color", "red");
-        // }
-    }
-});
-
-gsap.from(".event-right #card1", {
-    duration: 1.2,
-    x: -200,
-    opacity: 0,
-    ease: "power4.out",
-    pin: true,
-    scrollTrigger:{
-        trigger: "#container-event",
-        markers: true,
-        start: "top 70%",
-        toggleActions: "play none reverse reset",
-    }
-});
-gsap.from(".event-right #card2", {
-    duration: 1.2,
-    x: 200,
-    opacity: 0,
-    ease: "power4.out",
-    pin: true,
-    scrollTrigger:{
-        trigger: "#container-event",
-        markers: true,
-        start: "top 50%",
-        toggleActions: "play none reverse reset",
-    }
-});
-gsap.from(".event-right #card3", {
-    duration: 1.2,
-    x: -200,
-    opacity: 0,
-    ease: "power4.out",
-    pin: true,
-    scrollTrigger:{
-        trigger: "#container-event",
-        markers: true,
-        start: "top 30%",
-        toggleActions: "play none reverse reset",
-    }
-});
-gsap.from(".event-right #card4", {
-    duration: 1.2,
-    x: 200,
-    opacity: 0,
-    ease: "power4.out",
-    pin: true,
-    scrollTrigger:{
-        trigger: "#container-event",
-        markers: true,
-        start: "top 5%",
-        toggleActions: "play none reverse reset",
-    }
-});
-
-gsap.to("#rocket-img",{
-    motionPath:{
-        path:[{x:0, y:0},{x:-1, y:1},{x: -750, y: 70},{x: 0, y: 0}],
-        autoRotate: true
-    },
-    duration: 5
-});
-
-MotionPathHelper.create("#rocket-img");
+}
 
 
 console.log("running2");
