@@ -59,3 +59,66 @@ nav{
     display: flex;
     transform: translateX(60px);
 }
+
+.menu{
+  display: flex;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.menu svg{
+  fill:white;
+}
+
+.menu svg{
+    height:25px;
+    opacity: 0.5;
+    transition: all ease-out 200ms;
+}
+
+.menu:hover svg{
+    opacity: 1;
+}
+
+.menu:hover .pop{
+    display: flex;
+    transform: translateX(60px);
+}
+
+.menu{
+  display:none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px){
+  nav{
+    overflow:hidden;
+    height:40px;
+    top:85vh;
+  }
+  
+  .menu{
+    display:flex;
+  }
+  
+  .item{
+    display:none;
+  }
+  
+  nav:focus{
+    height: 400px;
+    top:calc(85vh - 350px);
+  }
+  
+  nav:focus .item{
+    display:flex;
+  }
+  
+  nav:focus .menu{
+    display:none;
+  }
+}

@@ -113,7 +113,7 @@ body {
 main {
 
     /* Increase the height according to no of sections */
-    height: 200vh;
+    height: 250vh;
 
 
     width: 100vw;
@@ -134,7 +134,7 @@ main {
     /* Did not Increase the width too much that is starts covering nav */
     height: 80vh;
 
-    width: 80vw;
+    width: 85vw;
     border-radius: 20px;
     background: rgba(36, 31, 60, 0.8);
     backdrop-filter: blur(2.5px);
