@@ -145,6 +145,9 @@ main {
     border: 4px solid pink;
 }
 
+
+/* UNIVERSAL CLASS */
+
 .container_heading{
     color: white;
     font-size: 3.1rem;
