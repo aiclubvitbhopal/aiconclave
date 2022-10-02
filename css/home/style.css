@@ -127,13 +127,14 @@ main {
     z-index: 1;
     margin-top: 0px;
     padding: 50px;
+  
 }
 
 .container {
 
     /* Did not Increase the width too much that is starts covering nav */
     /* height: 80vh; */
-
+    padding: 2rem 3rem;
     width: 85vw;
     border-radius: 20px;
     background: rgba(36, 31, 60, 0.8);
@@ -141,4 +142,23 @@ main {
     box-shadow: 0px 4px 11px 6px rgba(0, 0, 0, 0.25);
     /* backdrop-filter: blur(4px); */
     margin: 100px auto;
+    border: 4px solid pink;
+}
+
+.container_heading{
+    color: white;
+    font-size: 3.1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.sub-container{
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.margin-bottom{
+    margin-bottom: 2rem;
 }
