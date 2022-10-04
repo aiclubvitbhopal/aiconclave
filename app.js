@@ -105,7 +105,7 @@ gsap.from("#container-event", {
     pin: true,
     scrollTrigger:{
         trigger: "#container-event",
-        markers: true,
+        markers: false,
         start: "top bottom",
         toggleActions: "play none none reverse",
         // scrub: true,
@@ -126,7 +126,7 @@ gsap.from([".event-left .timeline",".event-left .event-head",".event-left .event
     pin: true,
     scrollTrigger:{
         trigger: "#container-event",
-        markers: true,
+        markers: false,
         start: "top 85%",
         toggleActions: "play none none reverse",
 
@@ -146,7 +146,7 @@ gsap.from(".event-right #card1", {
     pin: true,
     scrollTrigger:{
         trigger: "#container-event",
-        markers: true,
+        markers: false,
         start: "top 70%",
         toggleActions: "play none none reverse",
     }
@@ -159,7 +159,7 @@ gsap.from(".event-right #card2", {
     pin: true,
     scrollTrigger:{
         trigger: "#container-event",
-        markers: true,
+        markers: false,
         start: "top 50%",
         toggleActions: "play none none reverse",
     }
@@ -172,7 +172,7 @@ gsap.from(".event-right #card3", {
     pin: true,
     scrollTrigger:{
         trigger: "#container-event",
-        markers: true,
+        markers: false,
         start: "top 30%",
         toggleActions: "play none none reverse",
     }
@@ -185,7 +185,7 @@ gsap.from(".event-right #card4", {
     pin: true,
     scrollTrigger:{
         trigger: "#container-event",
-        markers: true,
+        markers: false,
         start: "top 5%",
         toggleActions: "play none none reverse",
     }
@@ -198,7 +198,7 @@ gsap.from("#rocket-img",{
     duration: 2,
     scrollTrigger:{
         trigger: "#card4",
-        markers: true,
+        markers: false,
         start: "bottom bottom",
         toggleActions: "play none none reverse",
     }
