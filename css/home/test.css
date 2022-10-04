@@ -39,7 +39,6 @@
 }
 
 .timeline_main{
-
     width: 70%;
 }
 
@@ -174,6 +173,17 @@
   
   /* mobile version */
   @media screen and (max-width: 768px) {
+    .test_container{
+      border: 2px solid red;
+      flex-direction: column;
+    }
+    .timeline_main{
+      width: 100%;
+    }
+    .test_contents{
+      border: 2px solid pink;
+      width: 100%;
+    }
     .timeline_main > .column::before {
       left: 50px;
       height: calc(100% / 5 * 4);
