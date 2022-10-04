@@ -36,17 +36,19 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 1;
+
   
 }
 
 .main {
+   
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    top: calc(49vh);
-    right:calc(28vw);
+    top: calc(50vh);
+    right:calc(20vw);
 }
 
 .heading {
@@ -58,10 +60,10 @@ body {
     font-size: 130px;
     line-height: 115.7%;
     text-align: center;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    background-color: rgba(36, 31, 60, 0.36);
-    backdrop-filter: blur(4px);
+
+    color: black;
+    /* background-color: rgba(36, 31, 60, 0.36);
+    backdrop-filter: blur(4px); */
 }
 
 .sub-head {
@@ -85,7 +87,7 @@ body {
     font-weight: 400;
     font-size: 40px;
     line-height: 180%;
-    color: rgba(55, 47, 90, 0.55);
+    color: #41396E;
 }
 
 .main-bottom {
