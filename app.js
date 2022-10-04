@@ -10,6 +10,7 @@ leftNav = document.querySelector("nav");
 console.log(header);
 
 
+
 let t1 = gsap.timeline({ paused: true, reversed: true });
 
 t1.play();
@@ -294,7 +295,7 @@ gsap.from("#rocket-img",{
     duration: 2,
     scrollTrigger:{
         trigger: "#rocket-img",
-        markers: true,
+        markers: false,
         start: "top bottom",
         scrub: 1,
         toggleActions: "play none none reverse",
