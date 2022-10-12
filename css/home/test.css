@@ -7,7 +7,8 @@
    
 }
 
-.test_contents{min-height: 20rem;
+.test_contents{
+  min-height: 20rem;
     width: 50%;
     align-self: flex-start;
     color: white;
@@ -93,7 +94,7 @@
     background: linear-gradient(135deg,#60b4ec,#0a76e2);
 
   }
-  .timeline_main > .column > .row > .text.text:nth-last-of-type(1){
+  .timeline-main > .column > .row > .text.text:nth-last-of-type(1){
     background: linear-gradient(135deg,#eea849,#f46b45);
    
   }
